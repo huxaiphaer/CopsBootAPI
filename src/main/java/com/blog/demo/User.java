@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.UUID;
 @Entity
 @Table(name = "copsboot_user")
-public class User {
+public class User  {
 
     @Id
     private UUID id;
@@ -24,19 +24,11 @@ public class User {
 
     }
 
-    public User(UUID id, String name, String password, Set<UserRole> roles) {
-        this.id = id;
+    public User(UserId id, String name, String password, Set<UserRole> roles) {
+        //super(id);
         this.name = name;
         this.password = password;
         this.roles = roles;
-    }
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
     }
 
     public String getName() {

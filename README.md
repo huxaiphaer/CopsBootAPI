@@ -9,7 +9,7 @@ It allows officers on the road to interact with the server via a mobile applicat
 
 Step 1. Clone the project by running `git clone https://github.com/huxaiphaer/CopsBootAPI.git`
 
-Steps 2. Open your project in the IDE, then followin series of commands : 
+Steps 2. Open your project in the IDE, then following series of commands : 
 
  a). `mvn package`
  
@@ -24,6 +24,7 @@ Steps 2. Open your project in the IDE, then followin series of commands :
 1. Java
 2. Springboot
 3. Xml
+4. H2 Database
 
 
 ### Authors
